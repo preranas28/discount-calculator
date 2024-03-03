@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DiscountCalculator</title>
+    <!-- Google CDN link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Madimi+One&family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+
+    <style>
+        .card{
+            box-shadow: 9px 8px 11px 3px rgba(0,0,0,0.46);
+            -webkit-box-shadow: 9px 8px 11px 3px rgba(0,0,0,0.46);
+            -moz-box-shadow: 9px 8px 11px 3px rgba(0,0,0,0.46);
+
+            width: 350px;
+            background-color: aqua;
+            margin-left: 550px;
+            margin-top: 100px;
+            border-radius: 15px;
+            
+        }
+        .form1{
+            padding-bottom: 20px;
+        }
+        input[type="text"]{
+            border: 2px solid blue;
+            border-radius:8px;
+            padding: 5px 5px ;
+            width: 250px;
+            text-transform: capitalize;
+            color: blueviolet;
+        }
+        #buttonDesign{
+            color: red;
+            border-radius:8px;
+            border: 2px solid wheat;
+            margin-bottom: 10px;
+            font-family: "Roboto Slab", serif;
+            padding-left: 100px;
+            padding-right: 100px;
+            font-weight: bold;
+        }
+        button[type="submit"]:hover {
+            background-color:yellow;
+            text-decoration-color: blueviolet;
+            
+        }
+        .pad{
+            padding-left:50px;
+            padding-top: 10px;
+            font-family: "Madimi One", sans-serif;
+        }
+        .pad2{
+            margin-bottom: 20px;
+            font-weight: 300;
+        }
+        .padding{
+            margin-bottom: 10px;
+            padding-bottom: 10px;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h2 class="pad">Discount Calculator</h2>
+        <form action="" class="form1 pad">
+            <label for="" class="">Enter the bill amount and discount in percentage</label> <br> <br>
+
+            <label for="" class="padding">Bill Amount</label> <br>
+            <input type="text" name="" id="" placeholder="500" class="pad2"> <br>
+
+            <label for="" class="padding">Discount Percentage</label> <br>
+            <input type="text" name="" id="" placeholder="10" class="pad2"> <br> <br>
+
+            <button type="submit" id="buttonDesign">Calculate</button> <br>
+            <label for="">Total Discount Amount</label>
+        </form>
+
+    </div>
+</body>
+</html>
